@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this software and the associated study when using these experiments."
+type: software
+title: "From Attribution Drift to Selective Action: Cost-Preserved Abstention under Shift"
+version: "2.0"
+date-released: 2026-11-11
+authors:
+  - family-names: Elnahal
+    given-names: Mazen
+repository-code: "https://github.com/mazenelnahal11/attribution-drift-selective-risk"

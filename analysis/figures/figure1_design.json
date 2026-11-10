@@ -1,0 +1,8 @@
+{
+  "panel_a": "Five-seed mean risk and sample SD, fully shifted cases, fixed coverage grid .05 to 1; all three methods use identical predictions/labels.",
+  "panel_b": "Prespecified seed 11, interaction/MLP local-boundary arm, W100 and rolling accepted cost of last100 observations at source 10% review thresholds; vertical line is onset1200.",
+  "vector_pdf": true,
+  "dpi_png": 600,
+  "pdf_fonttype": 42,
+  "selection_of_example": "First prespecified fit seed; no search over effect sizes."
+}

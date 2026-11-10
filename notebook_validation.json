@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "notebooks": [
+    {
+      "notebook": "01_Path_A_Plus_Development.ipynb",
+      "sha256": "775aef30fef4528887df0064484ebeecb885b9dc88493accc84808d358066fad",
+      "schema": "passed",
+      "code_cells_compile": true,
+      "embedded_sources_match": true,
+      "actual_run_and_export_cells": "passed",
+      "frozen_unit_resumption": true,
+      "checked_audit_receipts_reused": [
+        "audit_v2.py",
+        "audit_calibration.py"
+      ],
+      "output_crc_and_manifest": "passed",
+      "regenerated_csvs_match": true,
+      "diagnostic_export": "passed",
+      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation"
+    },
+    {
+      "notebook": "02_Path_A_Plus_Confirmation.ipynb",
+      "sha256": "d27ab02c8819667fb91a8c0b52d40eabc103605ccf34e5ed50222a7f90fb4ec4",
+      "schema": "passed",
+      "code_cells_compile": true,
+      "embedded_sources_match": true,
+      "actual_run_and_export_cells": "passed",
+      "frozen_unit_resumption": true,
+      "checked_audit_receipts_reused": [
+        "audit_v2.py",
+        "audit_calibration.py"
+      ],
+      "output_crc_and_manifest": "passed",
+      "regenerated_csvs_match": true,
+      "diagnostic_export": "passed",
+      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation"
+    },
+    {
+      "notebook": "03_Path_A_Plus_Verified_Analysis.ipynb",
+      "sha256": "fa1812910f27dc4a84c6ac28c6a1e92ae53bbfd110583acfd2b54936f8965361",
+      "schema": "passed",
+      "code_cells_compile": true,
+      "embedded_sources_match": true,
+      "actual_run_and_export_cells": "passed",
+      "frozen_unit_resumption": false,
+      "checked_audit_receipts_reused": [
+        "audit_v2.py",
+        "audit_calibration.py"
+      ],
+      "output_crc_and_manifest": "passed",
+      "regenerated_csvs_match": true,
+      "diagnostic_export": "passed",
+      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation"
+    }
+  ],
+  "scope": "Actual notebook run/export cells on verified local resume fixtures; full training and full independent audits executed separately."
+}

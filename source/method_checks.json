@@ -1,0 +1,55 @@
+{
+  "checks_passed": 31,
+  "checks": [
+    "cost identity and class weights",
+    "empirical inverse and boundary handling",
+    "inactive CP equals expected cost exactly",
+    "CP at full trigger has cost weights and matched source range",
+    "Bayes ordering requires an extra condition; counterexample recorded",
+    "signed vector uses the identical mean featurewise W1 operator",
+    "falling disagreement suppresses directional gamma despite W1 alarm",
+    "causal first gamma is at the first complete-window endpoint",
+    "future rows leave past actions unchanged",
+    "development/sea all roles and deployment disjoint",
+    "development/hyperplane all roles and deployment disjoint",
+    "development/adult_numeric all roles and deployment disjoint",
+    "development/Adult deployment unused by original runs",
+    "development/electricity all roles and deployment disjoint",
+    "development/interaction all roles and deployment disjoint",
+    "confirmation/sea all roles and deployment disjoint",
+    "confirmation/hyperplane all roles and deployment disjoint",
+    "confirmation/adult_numeric all roles and deployment disjoint",
+    "confirmation/Adult deployment unused by original runs",
+    "confirmation/electricity all roles and deployment disjoint",
+    "confirmation/interaction all roles and deployment disjoint",
+    "sea development and confirmation deployment disjoint",
+    "sea confirmation cases excluded from development sources",
+    "hyperplane development and confirmation deployment disjoint",
+    "hyperplane confirmation cases excluded from development sources",
+    "adult_numeric development and confirmation deployment disjoint",
+    "adult_numeric confirmation cases excluded from development sources",
+    "electricity development and confirmation deployment disjoint",
+    "electricity confirmation cases excluded from development sources",
+    "interaction development and confirmation deployment disjoint",
+    "interaction confirmation cases excluded from development sources"
+  ],
+  "analytic_counterexample": {
+    "p": [
+      0.11,
+      0.6
+    ],
+    "D": [
+      0.0,
+      1.0
+    ],
+    "c": [
+      0.11,
+      0.08000000000000002
+    ],
+    "CP": [
+      0.01,
+      0.1
+    ],
+    "gamma": 1.0
+  }
+}

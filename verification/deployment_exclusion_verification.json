@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "historical_archives": {
+    "RETURN_confirmation_7706828a0f52.zip": "6ff9753721d49c6c700cedd3fc6341e257450e0b3f3f49f53adce3516d674c31",
+    "RETURN_development_e2af1d3e0efb.zip": "3c7e805be635658b6039ae23885837ba21784e3ac3abdde5176230d4eca85b4e"
+  },
+  "adult_excluded_identifiers": 35008,
+  "exact_identifier_match": true,
+  "manifest_sha256": "922e520fd54a1c409991aeb5ec71b4c3e31817a6e9ea517a8ccd86f1fe9a3e2e"
+}

@@ -1,0 +1,257 @@
+{
+  "status": "passed",
+  "checks": 460600,
+  "units": [
+    {
+      "unit": "adult_numeric/mlp/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/mlp/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/mlp/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/mlp/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/mlp/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/mlp/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/mlp/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/mlp/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/mlp/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/mlp/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/xgboost/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/xgboost/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/xgboost/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/xgboost/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "electricity/xgboost/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/mlp/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/mlp/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/mlp/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/mlp/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/mlp/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/mlp/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/mlp/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/mlp/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/mlp/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/mlp/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/xgboost/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/xgboost/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/xgboost/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/xgboost/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "interaction/xgboost/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/mlp/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/mlp/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/mlp/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/mlp/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/mlp/seed_71",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/xgboost/seed_101",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/xgboost/seed_11",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/xgboost/seed_29",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/xgboost/seed_47",
+      "checks": 9212,
+      "failures": []
+    },
+    {
+      "unit": "sea/xgboost/seed_71",
+      "checks": 9212,
+      "failures": []
+    }
+  ],
+  "scope": "Every source bootstrap replicate and all source selection-window statistics; all14 detectors, all3 windows."
+}

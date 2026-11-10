@@ -1,0 +1,18 @@
+{
+  "root_identity": "71e3d43741b2",
+  "engine_sha256": "53a0d22652fdff2683dc9053f8ad072f09958b79b518f0ba5edb63ccebcbf4e4",
+  "audit_checks": 124263,
+  "table1_seed_rows": 50,
+  "table2_methods": [
+    "disagreement",
+    "signed_difference",
+    "single_A",
+    "single_B",
+    "entropy",
+    "input_KS",
+    "input_RFF_MMD"
+  ],
+  "scope": "Fresh confirmation cases, fixed model/split/explanation/monitor settings; all outcomes retained.",
+  "source_calibration_checks": 460600,
+  "total_confirmation_checks": 584863
+}

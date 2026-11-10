@@ -1,0 +1,11 @@
+dataset,model,distinct_checkpoints,distinct_probabilities,distinct_case_sets
+sea,xgboost,5,5,1
+sea,mlp,5,5,1
+hyperplane,xgboost,5,5,1
+hyperplane,mlp,5,5,1
+adult_numeric,xgboost,5,5,1
+adult_numeric,mlp,5,5,1
+electricity,xgboost,5,5,1
+electricity,mlp,5,5,1
+interaction,xgboost,5,5,1
+interaction,mlp,5,5,1

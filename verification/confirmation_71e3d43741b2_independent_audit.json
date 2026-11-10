@@ -1,0 +1,332 @@
+{
+  "status": "passed",
+  "checks": 124263,
+  "failed_checks": [],
+  "units": [
+    {
+      "unit": "adult_numeric/mlp/seed_101",
+      "checks": 1805,
+      "source_balanced_accuracy": 0.7150000000000001
+    },
+    {
+      "unit": "adult_numeric/mlp/seed_11",
+      "checks": 1805,
+      "source_balanced_accuracy": 0.709047619047619
+    },
+    {
+      "unit": "adult_numeric/mlp/seed_29",
+      "checks": 1805,
+      "source_balanced_accuracy": 0.7166666666666667
+    },
+    {
+      "unit": "adult_numeric/mlp/seed_47",
+      "checks": 1805,
+      "source_balanced_accuracy": 0.7150000000000001
+    },
+    {
+      "unit": "adult_numeric/mlp/seed_71",
+      "checks": 1805,
+      "source_balanced_accuracy": 0.7123809523809523
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_101",
+      "checks": 1806,
+      "source_balanced_accuracy": 0.7497619047619047
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_11",
+      "checks": 1806,
+      "source_balanced_accuracy": 0.7480952380952381
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_29",
+      "checks": 1806,
+      "source_balanced_accuracy": 0.7507142857142857
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_47",
+      "checks": 1806,
+      "source_balanced_accuracy": 0.7566666666666667
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_71",
+      "checks": 1806,
+      "source_balanced_accuracy": 0.7371428571428571
+    },
+    {
+      "unit": "electricity/mlp/seed_101",
+      "checks": 908,
+      "source_balanced_accuracy": 0.7187423538047467
+    },
+    {
+      "unit": "electricity/mlp/seed_11",
+      "checks": 908,
+      "source_balanced_accuracy": 0.697863143299894
+    },
+    {
+      "unit": "electricity/mlp/seed_29",
+      "checks": 908,
+      "source_balanced_accuracy": 0.6735176576135715
+    },
+    {
+      "unit": "electricity/mlp/seed_47",
+      "checks": 908,
+      "source_balanced_accuracy": 0.6795122746921132
+    },
+    {
+      "unit": "electricity/mlp/seed_71",
+      "checks": 908,
+      "source_balanced_accuracy": 0.6688279911915831
+    },
+    {
+      "unit": "electricity/xgboost/seed_101",
+      "checks": 909,
+      "source_balanced_accuracy": 0.6160998287252263
+    },
+    {
+      "unit": "electricity/xgboost/seed_11",
+      "checks": 909,
+      "source_balanced_accuracy": 0.6270287904738602
+    },
+    {
+      "unit": "electricity/xgboost/seed_29",
+      "checks": 909,
+      "source_balanced_accuracy": 0.6354701900334394
+    },
+    {
+      "unit": "electricity/xgboost/seed_47",
+      "checks": 909,
+      "source_balanced_accuracy": 0.6188320691623848
+    },
+    {
+      "unit": "electricity/xgboost/seed_71",
+      "checks": 909,
+      "source_balanced_accuracy": 0.6242965500367017
+    },
+    {
+      "unit": "hyperplane/mlp/seed_101",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9583050571405305
+    },
+    {
+      "unit": "hyperplane/mlp/seed_11",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9559027117999945
+    },
+    {
+      "unit": "hyperplane/mlp/seed_29",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9557669860745406
+    },
+    {
+      "unit": "hyperplane/mlp/seed_47",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9584407828659844
+    },
+    {
+      "unit": "hyperplane/mlp/seed_71",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9636526507234181
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_101",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9091316268085453
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_11",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9168815657319689
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_29",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9063221042916474
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_47",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9118054235999892
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_71",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9037840332256576
+    },
+    {
+      "unit": "interaction/mlp/seed_101",
+      "checks": 4141,
+      "source_balanced_accuracy": 0.8533544943009667
+    },
+    {
+      "unit": "interaction/mlp/seed_11",
+      "checks": 4141,
+      "source_balanced_accuracy": 0.8492858173423748
+    },
+    {
+      "unit": "interaction/mlp/seed_29",
+      "checks": 4141,
+      "source_balanced_accuracy": 0.8471937671331697
+    },
+    {
+      "unit": "interaction/mlp/seed_47",
+      "checks": 4141,
+      "source_balanced_accuracy": 0.8492858173423748
+    },
+    {
+      "unit": "interaction/mlp/seed_71",
+      "checks": 4141,
+      "source_balanced_accuracy": 0.8519982686481027
+    },
+    {
+      "unit": "interaction/xgboost/seed_101",
+      "checks": 4142,
+      "source_balanced_accuracy": 0.847309190592988
+    },
+    {
+      "unit": "interaction/xgboost/seed_11",
+      "checks": 4142,
+      "source_balanced_accuracy": 0.8438609147309191
+    },
+    {
+      "unit": "interaction/xgboost/seed_29",
+      "checks": 4142,
+      "source_balanced_accuracy": 0.850757466455057
+    },
+    {
+      "unit": "interaction/xgboost/seed_47",
+      "checks": 4142,
+      "source_balanced_accuracy": 0.847309190592988
+    },
+    {
+      "unit": "interaction/xgboost/seed_71",
+      "checks": 4142,
+      "source_balanced_accuracy": 0.8438609147309191
+    },
+    {
+      "unit": "sea/mlp/seed_101",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9303030303030303
+    },
+    {
+      "unit": "sea/mlp/seed_11",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9340909090909091
+    },
+    {
+      "unit": "sea/mlp/seed_29",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9340909090909091
+    },
+    {
+      "unit": "sea/mlp/seed_47",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9340909090909091
+    },
+    {
+      "unit": "sea/mlp/seed_71",
+      "checks": 2699,
+      "source_balanced_accuracy": 0.9303030303030303
+    },
+    {
+      "unit": "sea/xgboost/seed_101",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9359848484848485
+    },
+    {
+      "unit": "sea/xgboost/seed_11",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9321969696969696
+    },
+    {
+      "unit": "sea/xgboost/seed_29",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9303030303030303
+    },
+    {
+      "unit": "sea/xgboost/seed_47",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9321969696969696
+    },
+    {
+      "unit": "sea/xgboost/seed_71",
+      "checks": 2700,
+      "source_balanced_accuracy": 0.9321969696969696
+    }
+  ],
+  "fit_diversity": [
+    {
+      "dataset": "sea",
+      "model": "xgboost",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "sea",
+      "model": "mlp",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "hyperplane",
+      "model": "xgboost",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "hyperplane",
+      "model": "mlp",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "adult_numeric",
+      "model": "xgboost",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "adult_numeric",
+      "model": "mlp",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "electricity",
+      "model": "xgboost",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "electricity",
+      "model": "mlp",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "interaction",
+      "model": "xgboost",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "interaction",
+      "model": "mlp",
+      "distinct_checkpoints": 5,
+      "distinct_probabilities": 5,
+      "distinct_case_sets": 1
+    }
+  ],
+  "engine_sha256": "53a0d22652fdff2683dc9053f8ad072f09958b79b518f0ba5edb63ccebcbf4e4",
+  "run_identity": "71e3d43741b2",
+  "full_checkpoint_replay": true
+}

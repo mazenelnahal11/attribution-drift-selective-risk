@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "checks": 16191,
+  "failed_checks": [],
+  "units": [
+    {
+      "unit": "adult_numeric/mlp/seed_11",
+      "checks": 1137,
+      "source_balanced_accuracy": 0.6771521035598705
+    },
+    {
+      "unit": "adult_numeric/xgboost/seed_11",
+      "checks": 1138,
+      "source_balanced_accuracy": 0.676957928802589
+    },
+    {
+      "unit": "electricity/mlp/seed_11",
+      "checks": 574,
+      "source_balanced_accuracy": 0.8406593406593407
+    },
+    {
+      "unit": "electricity/xgboost/seed_11",
+      "checks": 575,
+      "source_balanced_accuracy": 0.841066341066341
+    },
+    {
+      "unit": "hyperplane/mlp/seed_11",
+      "checks": 1697,
+      "source_balanced_accuracy": 0.9246798792920643
+    },
+    {
+      "unit": "hyperplane/xgboost/seed_11",
+      "checks": 1698,
+      "source_balanced_accuracy": 0.8617975695294021
+    },
+    {
+      "unit": "interaction/mlp/seed_11",
+      "checks": 2805,
+      "source_balanced_accuracy": 0.8705042391789379
+    },
+    {
+      "unit": "interaction/xgboost/seed_11",
+      "checks": 2806,
+      "source_balanced_accuracy": 0.8684962070504239
+    },
+    {
+      "unit": "sea/mlp/seed_11",
+      "checks": 1697,
+      "source_balanced_accuracy": 0.9094791035735919
+    },
+    {
+      "unit": "sea/xgboost/seed_11",
+      "checks": 1698,
+      "source_balanced_accuracy": 0.90366444579043
+    }
+  ],
+  "fit_diversity": [
+    {
+      "dataset": "sea",
+      "model": "xgboost",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "sea",
+      "model": "mlp",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "hyperplane",
+      "model": "xgboost",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "hyperplane",
+      "model": "mlp",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "adult_numeric",
+      "model": "xgboost",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "adult_numeric",
+      "model": "mlp",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "electricity",
+      "model": "xgboost",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "electricity",
+      "model": "mlp",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "interaction",
+      "model": "xgboost",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    },
+    {
+      "dataset": "interaction",
+      "model": "mlp",
+      "distinct_checkpoints": 1,
+      "distinct_probabilities": 1,
+      "distinct_case_sets": 1
+    }
+  ],
+  "engine_sha256": "53a0d22652fdff2683dc9053f8ad072f09958b79b518f0ba5edb63ccebcbf4e4",
+  "run_identity": "40197585b5fa",
+  "full_checkpoint_replay": true
+}
