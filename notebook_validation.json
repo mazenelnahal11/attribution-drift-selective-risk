@@ -3,7 +3,7 @@
   "notebooks": [
     {
       "notebook": "01_Path_A_Plus_Development.ipynb",
-      "sha256": "775aef30fef4528887df0064484ebeecb885b9dc88493accc84808d358066fad",
+      "sha256": "ef51d10d4c58643fedec3d0b4baabd0bc1612b4171a8197de8ec86c4bcf88377",
       "schema": "passed",
       "code_cells_compile": true,
       "embedded_sources_match": true,
@@ -16,11 +16,19 @@
       "output_crc_and_manifest": "passed",
       "regenerated_csvs_match": true,
       "diagnostic_export": "passed",
-      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation"
+      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation",
+      "presentation_revision_checks": {
+        "schema": "passed",
+        "embedded_sources_match": true,
+        "run_and_export_cells_unchanged": true,
+        "scientific_engine_unchanged": true,
+        "new_model_fits": 0,
+        "development_or_confirmation_rerun": false
+      }
     },
     {
       "notebook": "02_Path_A_Plus_Confirmation.ipynb",
-      "sha256": "d27ab02c8819667fb91a8c0b52d40eabc103605ccf34e5ed50222a7f90fb4ec4",
+      "sha256": "c07d70b910d67225fd5002b3ec544086297a4b4d2420d56efe5c49763c19ee63",
       "schema": "passed",
       "code_cells_compile": true,
       "embedded_sources_match": true,
@@ -33,11 +41,19 @@
       "output_crc_and_manifest": "passed",
       "regenerated_csvs_match": true,
       "diagnostic_export": "passed",
-      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation"
+      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation",
+      "presentation_revision_checks": {
+        "schema": "passed",
+        "embedded_sources_match": true,
+        "run_and_export_cells_unchanged": true,
+        "scientific_engine_unchanged": true,
+        "new_model_fits": 0,
+        "development_or_confirmation_rerun": false
+      }
     },
     {
       "notebook": "03_Path_A_Plus_Verified_Analysis.ipynb",
-      "sha256": "fa1812910f27dc4a84c6ac28c6a1e92ae53bbfd110583acfd2b54936f8965361",
+      "sha256": "c95b0c354d858ac0554101cecf4664029ea74cb7f3cbcab4f5fb7265ae8426ec",
       "schema": "passed",
       "code_cells_compile": true,
       "embedded_sources_match": true,
@@ -50,8 +66,22 @@
       "output_crc_and_manifest": "passed",
       "regenerated_csvs_match": true,
       "diagnostic_export": "passed",
-      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation"
+      "runtime": "local pinned CPU environment; notebook dependency installation tested by source/probe validation",
+      "presentation_revision_checks": {
+        "schema": "passed",
+        "embedded_sources_match": true,
+        "run_and_export_cells_unchanged": true,
+        "scientific_engine_unchanged": true,
+        "new_model_fits": 0,
+        "development_or_confirmation_rerun": false,
+        "actual_analysis_run_and_export_cells": "passed",
+        "regenerated_numeric_tables_and_figure_source_match": true
+      }
     }
   ],
-  "scope": "Actual notebook run/export cells on verified local resume fixtures; full training and full independent audits executed separately."
+  "scope": "Original training and independent audits remain verified. This revision validates all embedded sources and executes only the analysis/replot and export cells using the exact frozen input archive and prior audit receipts.",
+  "new_model_fits": 0,
+  "executed_analysis_scripts": [
+    "analyze_v2.py"
+  ]
 }

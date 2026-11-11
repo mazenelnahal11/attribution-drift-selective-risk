@@ -1,0 +1,153 @@
+[
+  {
+    "table": 1,
+    "dataset": "sea",
+    "model": "xgboost",
+    "winners": [
+      "expected_cost"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "sea",
+    "model": "mlp",
+    "winners": [
+      "cost_preserved"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "hyperplane",
+    "model": "xgboost",
+    "winners": [
+      "expected_cost"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "hyperplane",
+    "model": "mlp",
+    "winners": [
+      "expected_cost",
+      "cost_preserved"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "adult_numeric",
+    "model": "xgboost",
+    "winners": [
+      "expected_cost"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "adult_numeric",
+    "model": "mlp",
+    "winners": [
+      "naive_unscaled"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "electricity",
+    "model": "xgboost",
+    "winners": [
+      "cost_preserved"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "electricity",
+    "model": "mlp",
+    "winners": [
+      "expected_cost"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "interaction",
+    "model": "xgboost",
+    "winners": [
+      "naive_unscaled"
+    ]
+  },
+  {
+    "table": 1,
+    "dataset": "interaction",
+    "model": "mlp",
+    "winners": [
+      "expected_cost",
+      "cost_preserved"
+    ]
+  },
+  {
+    "table": 2,
+    "dataset": "sea",
+    "model": "xgboost",
+    "winners": [
+      "input_RFF_MMD"
+    ]
+  },
+  {
+    "table": 2,
+    "dataset": "sea",
+    "model": "mlp",
+    "winners": [
+      "input_RFF_MMD"
+    ]
+  },
+  {
+    "table": 2,
+    "dataset": "hyperplane",
+    "model": "xgboost",
+    "winners": [
+      "entropy"
+    ]
+  },
+  {
+    "table": 2,
+    "dataset": "hyperplane",
+    "model": "mlp",
+    "winners": [
+      "signed_difference",
+      "single_A",
+      "single_B"
+    ]
+  },
+  {
+    "table": 2,
+    "dataset": "adult_numeric",
+    "model": "xgboost",
+    "winners": [
+      "entropy"
+    ]
+  },
+  {
+    "table": 2,
+    "dataset": "adult_numeric",
+    "model": "mlp",
+    "winners": [
+      "entropy"
+    ]
+  },
+  {
+    "table": 2,
+    "dataset": "interaction",
+    "model": "xgboost",
+    "winners": [
+      "entropy",
+      "input_RFF_MMD"
+    ]
+  },
+  {
+    "table": 2,
+    "dataset": "interaction",
+    "model": "mlp",
+    "winners": [
+      "single_A",
+      "single_B",
+      "input_RFF_MMD"
+    ]
+  }
+]

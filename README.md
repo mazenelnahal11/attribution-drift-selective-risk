@@ -1,4 +1,4 @@
-# From Attribution Drift to Selective Action
+# From Attribution Drift to Selective Action: Capabilities and Boundaries under Distribution Shift
 
 Path A+ research package for the ESANN 2027 study. The revised development grid (10 fits) and confirmation grid (50 fits) have completed. The confirmation records passed 124,263 independent checks of saved-model predictions, row scores, risk metrics and fit diversity, plus 460,600 source-calibration checks: 584,863 checks in total.
 
@@ -44,3 +44,7 @@ python source/analyze_v2.py EXTRACTED_CONFIRMATION_DIRECTORY analysis
 The [protocol-v2.0 release](https://github.com/mazenelnahal11/attribution-drift-selective-risk/releases/tag/protocol-v2.0) supplies the raw revised archives and preserved historical archives. `SHA256SUMS.txt` identifies each exact asset. Original version 1 results remain a separate historical baseline. `historical/` contains its source and summary; the revised naive comparator is recomputed on each new checkpoint and case.
 
 This tabular study is separate from False Assurance and the submitted Contextual Reversals study. The protocol and bibliography attribute the shared explanation methods to their primary sources.
+
+## Final presentation revision
+
+The six-page paper and Figure 1 reflect the final decoupling thesis. Figure 1(a) compares Hyperplane/MLP and Adult/XGB. `FINAL_POLISH_NOTES.md` and `analysis/final_review/` document the read-only diagnostics and inline ablation claims. The frozen scientific engine and raw archives retain their original checksums.

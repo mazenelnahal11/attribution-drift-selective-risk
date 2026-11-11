@@ -1,0 +1,12 @@
+dataset,model,seed,active_fraction,scores_equal_c
+hyperplane,mlp,11,0.0,True
+hyperplane,mlp,29,0.0,True
+hyperplane,mlp,47,0.0,True
+hyperplane,mlp,71,0.0,True
+hyperplane,mlp,101,0.0,True
+hyperplane,xgboost,11,0.0,True
+hyperplane,xgboost,29,0.0,True
+hyperplane,xgboost,47,0.0,True
+hyperplane,xgboost,101,0.0,True
+sea,mlp,47,0.0,True
+sea,mlp,101,0.0,True

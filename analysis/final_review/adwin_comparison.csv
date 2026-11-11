@@ -1,0 +1,3 @@
+method,streams,detected,streams_with_pre_alarm,mean_pre_alarm_fraction,mean_delay_or_censor
+ADWIN_confidence_native,40,21,0.0,0.0,705.65
+disagreement,40,36,26.0,0.04555555555555556,340.0

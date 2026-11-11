@@ -109,24 +109,25 @@ def analyze(root,out):
 def figures(root,out):
     figdir=out/'figures';figdir.mkdir(exist_ok=True)
     plt.rcParams.update({'pdf.fonttype':42,'ps.fonttype':42,'font.family':'DejaVu Sans','font.size':9.5,'axes.spines.top':False,'axes.spines.right':False,'axes.labelsize':9.5,'xtick.labelsize':8.5,'ytick.labelsize':8.5,'legend.fontsize':8.5})
-    fig=plt.figure(figsize=(6.5,4.0));outer=fig.add_gridspec(1,2,width_ratios=[1,1.14],wspace=.42)
-    left=outer[0].subgridspec(2,1,hspace=.47);right=outer[1].subgridspec(2,1,hspace=.47)
+    fig=plt.figure(figsize=(6.5,3.8));outer=fig.add_gridspec(1,2,width_ratios=[1,1.14],wspace=0.70)
+    left=outer[0].subgridspec(2,1,hspace=0.64);right=outer[1].subgridspec(2,1,hspace=0.64)
     grid=np.linspace(.05,1,191);curve_records=[]
-    for k,(dataset,stream) in enumerate([('hyperplane','covariate_correlation_gradual'),('adult_numeric','covariate_selection')]):
+    panels=[('hyperplane','mlp','covariate_correlation_gradual'),('adult_numeric','xgboost','covariate_selection')]
+    for k,(dataset,model,stream) in enumerate(panels):
         ax=fig.add_subplot(left[k])
         for method in MAIN:
             all_risk=[]
             for seed in (11,29,47,71,101):
-                unit=root/'units'/dataset/'mlp'/f'seed_{seed}';r=read(unit/f'{stream}_rows.csv');meta=json.loads((unit/'stream_manifest.json').read_text())[stream]
+                unit=root/'units'/dataset/model/f'seed_{seed}';r=read(unit/f'{stream}_rows.csv');meta=json.loads((unit/'stream_manifest.json').read_text())[stream]
                 r=r.iloc[meta['transition_end']:];p=r.p.to_numpy();y=r.y.to_numpy();loss=np.where((y==1)&(p<.5),5.,np.where((y==0)&(p>=.5),1.,0.));cov,risk=curve(loss,r[f'risk_W100_{method}'].to_numpy())
                 # Step-function interpolation matches tied-group AURC convention.
                 values=risk[np.minimum(np.searchsorted(cov,grid,side='left'),len(risk)-1)]
                 all_risk.append(values)
-                curve_records.extend({'dataset':dataset,'model':'mlp','seed':seed,'method':method,'coverage':float(c),'risk':float(v)} for c,v in zip(grid,values))
+                curve_records.extend({'dataset':dataset,'model':model,'seed':seed,'method':method,'coverage':float(c),'risk':float(v)} for c,v in zip(grid,values))
             array=np.asarray(all_risk);mean=array.mean(0);sd=array.std(0,ddof=1)
             ax.plot(grid,mean,color=COLORS[method],label=LABELS[method],lw=1.65 if method=='expected_cost' else 1.05,ls='--' if method=='expected_cost' else '-')
             ax.fill_between(grid,np.maximum(0,mean-sd),mean+sd,color=COLORS[method],alpha=.10,lw=0)
-        ax.set(xlim=(.05,1),ylim=(0,None),ylabel='Accepted cost',xlabel='Coverage',title=('(a) ' if k==0 else '')+NAMES[dataset]+'/MLP')
+        ax.set(xlim=(0.05,1),ylim=(0,None),ylabel='Accepted cost',xlabel='Coverage',title=('(a) ' if k==0 else '')+NAMES[dataset]+'/'+MODELS[model])
         if k==0:
             ax.legend(loc='upper left',frameon=False,ncol=3,columnspacing=.9,handlelength=1.3)
         ax.grid(alpha=.15,lw=.5)
@@ -146,7 +147,7 @@ def figures(root,out):
     fig.subplots_adjust(left=.085,right=.99,bottom=.10,top=.94)
     fig.savefig(figdir/'figure1.pdf',dpi=600);fig.savefig(figdir/'figure1.png',dpi=600);plt.close(fig)
     pd.DataFrame(curve_records).to_csv(figdir/'panel_a_source.csv',index=False);pd.DataFrame(trace).to_csv(figdir/'panel_b_source.csv',index=False)
-    (figdir/'figure1_design.json').write_text(json.dumps({'panel_a':'Five-seed mean risk and sample SD, fully shifted cases, fixed coverage grid .05 to 1; all three methods use identical predictions/labels.','panel_b':'Prespecified seed 11, interaction/MLP local-boundary arm, W100 and rolling accepted cost of last100 observations at source 10% review thresholds; vertical line is onset1200.','vector_pdf':True,'dpi_png':600,'pdf_fonttype':42,'selection_of_example':'First prespecified fit seed; no search over effect sizes.'},indent=2)+'\n')
+    (figdir/'figure1_design.json').write_text(json.dumps({'panel_a':'Hyperplane/MLP and Adult/XGB: five-seed mean risk and sample SD, fully shifted cases, fixed coverage grid 0.05 to 1; all three methods share predictions and labels.','panel_b':'Prespecified seed 11, interaction/MLP local-boundary arm, W100 and trailing accepted cost of 100 observations at source 10% review thresholds; vertical line is onset1200.','horizontal_subplot_spacing':0.70,'vector_pdf':True,'dpi_png':600,'pdf_fonttype':42,'selection_of_example':'First prespecified temporal-example seed; Adult/XGB replaces Adult/MLP for curve separation in the final presentation pass.','model_retraining':False},indent=2)+'\n')
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('root');p.add_argument('out');a=p.parse_args();analyze(a.root,a.out)

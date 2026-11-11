@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Cite this software and the associated study when using these experiments."
 type: software
-title: "From Attribution Drift to Selective Action: Cost-Preserved Abstention under Shift"
+title: "From Attribution Drift to Selective Action: Capabilities and Boundaries under Distribution Shift"
 version: "2.0"
 date-released: 2026-11-11
 authors:

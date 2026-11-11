@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "revision": "Final presentation polish of the frozen confirmation results",
+  "new_model_fits": 0,
+  "new_raw_results": false,
+  "original_numeric_csvs_byte_identical": [
+    "all_arms_windows_ablations.csv",
+    "fit_seed_diversity.csv",
+    "fixed_threshold_seed_results.csv",
+    "fixed_threshold_summary.csv",
+    "interaction_covariate_control.csv",
+    "paired_label_controls.csv",
+    "phase_diagnostics.csv",
+    "stationary_alarm_summary.csv",
+    "table1_mean_seed_sd.csv",
+    "table1_seed_results.csv",
+    "table2_mean_seed_sd.csv"
+  ],
+  "portable_diagnostics_reproduced": [
+    "interaction_tail_diagnostics.csv",
+    "window_consistency.csv",
+    "interaction_ablations.csv",
+    "adwin_comparison.csv",
+    "tie_activation.csv",
+    "review_diagnostics.json"
+  ],
+  "unchanged_archive_sha256": {
+    "RETURN_confirmation_71e3d43741b2.zip": "8164e7799fb9ece07363e5cef492a0e9af4a18e76a91fe0f03c21fc305d71460",
+    "RETURN_confirmation_7706828a0f52.zip": "6ff9753721d49c6c700cedd3fc6341e257450e0b3f3f49f53adce3516d674c31",
+    "RETURN_development_40197585b5fa.zip": "db71d50454e2780cc8a13d9fd4750e80b49a103218b02f82ba9aefa265e75592",
+    "RETURN_development_e2af1d3e0efb.zip": "3c7e805be635658b6039ae23885837ba21784e3ac3abdde5176230d4eca85b4e",
+    "RETURN_Path_A_Plus_Analysis.zip": "301cba60fb08b96b2ba993b0e939e9e429c7ac89580ada6dedc5caa004ac4926"
+  },
+  "unchanged_scientific_engine_sha256": "53a0d22652fdff2683dc9053f8ad072f09958b79b518f0ba5edb63ccebcbf4e4",
+  "pdf_sha256": "0417ace5e7872665d7c44211d6ec3a9f82eebb84f35dc4931833e01c057868b9",
+  "pdf_pages": 6,
+  "effective_filled_pages": 5.957641095621762,
+  "all_six_latest_page_renders_match_inspected_images": true,
+  "embedded_fonts": true,
+  "type3_fonts": 0,
+  "figure_pdf_fonttype": 42,
+  "reviewer_items": {
+    "1": "Current 22/30 motivation; earlier-draft references removed from the manuscript.",
+    "2": "Title, abstract, introduction and discussion distinguish detection sensitivity from conditional-risk ranking.",
+    "3": "Existing ablations and explicitly post hoc mapping counts explain the XGB contrast; measured upper-endpoint exceedance is 5/6000 (0.083%).",
+    "4": "Leading zeros restored; interaction arms, W50/W250 and component ablations reported inline; full CSVs linked through the repository.",
+    "5": "ADWIN 21/40 post-onset detections, 0/40 pre-onset alarms; caption, row-best bolding and reference em dashes checked.",
+    "6": "Adult/XGB example, increased horizontal spacing, six A4 pages and embedded TrueType figure fonts."
+  },
+  "original_audit_receipts": "Preserved; this pass reuses the existing completed scientific audits."
+}

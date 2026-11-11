@@ -1,8 +1,10 @@
 {
-  "panel_a": "Five-seed mean risk and sample SD, fully shifted cases, fixed coverage grid .05 to 1; all three methods use identical predictions/labels.",
-  "panel_b": "Prespecified seed 11, interaction/MLP local-boundary arm, W100 and rolling accepted cost of last100 observations at source 10% review thresholds; vertical line is onset1200.",
+  "panel_a": "Hyperplane/MLP and Adult/XGB: five-seed mean risk and sample SD, fully shifted cases, fixed coverage grid 0.05 to 1; all three methods share predictions and labels.",
+  "panel_b": "Prespecified seed 11, interaction/MLP local-boundary arm, W100 and trailing accepted cost of 100 observations at source 10% review thresholds; vertical line is onset1200.",
+  "horizontal_subplot_spacing": 0.7,
   "vector_pdf": true,
   "dpi_png": 600,
   "pdf_fonttype": 42,
-  "selection_of_example": "First prespecified fit seed; no search over effect sizes."
+  "selection_of_example": "First prespecified temporal-example seed; Adult/XGB replaces Adult/MLP for curve separation in the final presentation pass.",
+  "model_retraining": false
 }

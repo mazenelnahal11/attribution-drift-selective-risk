@@ -1,0 +1,72 @@
+{
+  "status": "published_and_verified",
+  "repository_url": "https://github.com/mazenelnahal11/attribution-drift-selective-risk",
+  "release_url": "https://github.com/mazenelnahal11/attribution-drift-selective-risk/releases/tag/protocol-v2.0",
+  "tag": "protocol-v2.0",
+  "release_id": 441031213,
+  "public": true,
+  "draft": false,
+  "commit": "f43e99d93b17f4e1cfdfcdb6c14800c4f16d80a0",
+  "scientific_engine_sha256": "53a0d22652fdff2683dc9053f8ad072f09958b79b518f0ba5edb63ccebcbf4e4",
+  "public_engine_git_blob_matches": true,
+  "public_manifest_git_blob_matches": true,
+  "user_approval": "Publish all four archives, including the original runs",
+  "asset_count": 6,
+  "all_server_digests_match_local_sha256": true,
+  "assets": [
+    {
+      "name": "RETURN_confirmation_71e3d43741b2.zip",
+      "bytes": 197016947,
+      "sha256": "8164e7799fb9ece07363e5cef492a0e9af4a18e76a91fe0f03c21fc305d71460",
+      "url": "https://github.com/mazenelnahal11/attribution-drift-selective-risk/releases/download/protocol-v2.0/RETURN_confirmation_71e3d43741b2.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "RETURN_confirmation_7706828a0f52.zip",
+      "bytes": 222091034,
+      "sha256": "6ff9753721d49c6c700cedd3fc6341e257450e0b3f3f49f53adce3516d674c31",
+      "url": "https://github.com/mazenelnahal11/attribution-drift-selective-risk/releases/download/protocol-v2.0/RETURN_confirmation_7706828a0f52.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "RETURN_development_40197585b5fa.zip",
+      "bytes": 24306072,
+      "sha256": "db71d50454e2780cc8a13d9fd4750e80b49a103218b02f82ba9aefa265e75592",
+      "url": "https://github.com/mazenelnahal11/attribution-drift-selective-risk/releases/download/protocol-v2.0/RETURN_development_40197585b5fa.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "RETURN_development_e2af1d3e0efb.zip",
+      "bytes": 25947422,
+      "sha256": "3c7e805be635658b6039ae23885837ba21784e3ac3abdde5176230d4eca85b4e",
+      "url": "https://github.com/mazenelnahal11/attribution-drift-selective-risk/releases/download/protocol-v2.0/RETURN_development_e2af1d3e0efb.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "RETURN_Path_A_Plus_Analysis.zip",
+      "bytes": 832135,
+      "sha256": "301cba60fb08b96b2ba993b0e939e9e429c7ac89580ada6dedc5caa004ac4926",
+      "url": "https://github.com/mazenelnahal11/attribution-drift-selective-risk/releases/download/protocol-v2.0/RETURN_Path_A_Plus_Analysis.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 513,
+      "sha256": "6b1de9028ab1d008b97d6066b05ead05e2f981cfe96dcc1e4d8084993a9fab68",
+      "url": "https://github.com/mazenelnahal11/attribution-drift-selective-risk/releases/download/protocol-v2.0/SHA256SUMS.txt",
+      "state": "uploaded"
+    }
+  ],
+  "colab_download_urls_checked_without_authentication": [
+    {
+      "file": "RETURN_development_40197585b5fa.zip",
+      "http_status": 200,
+      "bytes": 24306072
+    },
+    {
+      "file": "RETURN_confirmation_71e3d43741b2.zip",
+      "http_status": 200,
+      "bytes": 197016947
+    }
+  ]
+}
